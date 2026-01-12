@@ -1,0 +1,276 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - Honest Product Pick</title>
+       <!-- <link rel="stylesheet" href="css/style.css"> -->
+       <!-- <link rel="stylesheet" href="css/home.css"> -->
+       <!-- <link rel="stylesheet" href="css/preview.css"> -->
+       <!-- <link rel="stylesheet" href="css/products.css"> -->
+       <link rel="stylesheet" href="css/contact.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+       <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    </head>
+
+    <body>
+      <!-- Header (Same as home page) -->
+       <header class="header">
+            <div class="header-top">
+               <div class="logo-container">
+                    <div class="logo">
+                      <i class="fab fa-amazon"></i>
+                      <span>Honest Product Pick</span>
+                    </div>
+               </div>
+
+                <!-- <div class="search-container">
+                   <div class="search-box">
+                       <input type="text" id="searchInput" placeholder="Search products...">
+                       <button id="searchBtn"><i class="fas fa-search"></i></button>
+                   </div>
+                </div> -->
+
+                <div class="header-actions">
+                    <div class="cart-container">
+                        <div class="cart-icon" id="cartIcon">
+                           <i class="fas fa-shopping-cart"></i>
+                           <span class="cart-count" id="cartCount">0</span>
+                       </div>
+                   </div>
+                </div>
+            </div>
+
+            <nav class="navbar">
+               <ul>
+                  <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                  <li><a href="products.html"><i class="fas fa-th-list"></i> All Products</a></li>
+                  <!-- <li class="dropdown">
+                       <a href="#"><i class="fas fa-bars"></i> Categories <i class="fas fa-chevron-down"></i></a>
+                       <div class="dropdown-content">
+                           <a href="products.html?category=electronics"><i class="fas fa-mobile-alt"></i> Electronics</a>
+                           <a href="products.html?category=clothing"><i class="fas fa-tshirt"></i> Clothing</a>
+                           <a href="products.html?category=computers"><i class="fas fa-laptop"></i> Computers</a>
+                           <a href="products.html?category=home"><i class="fas fa-home"></i> Home & Kitchen</a>
+                       </div>
+                  </li> -->
+                   <li><a href="preview.html"><i class="fas fa-eye"></i> Product Preview</a></li>
+                   <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+               </ul>
+            </nav>
+        </header>
+
+      <!-- Main Content - Contact Page Specific -->
+       <main class="main-content contact-page">
+            <div class="page-header">
+               <h1>Contact Us</h1>
+               <p>Get in touch with our team</p>
+            </div>
+
+           <div class="contact-container">
+               <!-- Contact Information -->
+
+                <div class="info-card">
+                    <h3><i class="fas fa-map-marker-alt"></i> Our Location</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>fawzan0fficial20@gmail.com</p>
+                            </div>
+                        </div>
+
+                       <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+92-3099590546</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>pakistan khyber pakhtunkhwa bajaur</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>24-hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+               <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="form-card">
+                       <h3><i class="fas fa-paper-plane"></i> Send Us a Message</h3>
+                       <p>Have questions or suggestions? Send us a message and we'll respond within 24 hours.</p>
+
+                        <form id="contactForm">
+                           <div class="form-group">
+                               <label for="name">Full Name *</label>
+                               <input type="text" id="name" name="name" required>
+                           </div>
+
+                           <div class="form-group">
+                              <label for="email">Email Address *</label>
+                              <input type="email" id="email" name="email" required>
+                           </div>
+
+                           <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                  <option value="">Select a subject</option>
+                                  <option value="product-inquiry">Product Inquiry</option>
+                                  <option value="add-product">Add a Product</option>
+                                  <option value="affiliate">Affiliate Program</option>
+                                  <option value="general">General Question</option>
+                                  <option value="feedback">Feedback</option>
+                               </select>
+                           </div>
+
+                           <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                           </div>
+
+                           <button type="submit" class="submit-btn">
+                              <i class="fas fa-paper-plane"></i> Send Message
+                           </button>
+                       </form>
+
+                       <div class="form-note">
+                           <p><i class="fas fa-info-circle"></i> For product submission questions, please include the
+                            Amazon product URL in your message.</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+          <!-- FAQ Section -->
+            <div class="faq-section">
+               <h2>Frequently Asked Questions</h2>
+               <div class="faq-grid">
+                    <div class="faq-item">
+                      <h4>How do I become an Amazon Associate?</h4>
+                      <p>You can sign up for the Amazon Associates program on the Amazon website. Once approved, you'll
+                        get affiliate links to promote products and earn commissions.</p>
+                    </div>
+
+                    <div class="faq-item">
+                       <h4>How often are products updated?</h4>
+                       <p>We update our product listings weekly to ensure you have access to the latest and best products
+                        available on Amazon.</p>
+                    </div>
+
+                    <div class="faq-item">
+                       <h4>Can I suggest a product for review?</h4>
+                       <p>Yes! Use the contact form above to suggest products. Please include the Amazon product URL and
+                        why you think it should be featured.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h4>How do affiliate links work?</h4>
+                        <p>When you click on our product links and make a purchase on Amazon, we earn a small commission at
+                        no extra cost to you. This supports our website.</p>
+                    </div>
+               </div>
+           </div>
+        </main>
+
+       <!-- Footer (Same as home page) -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fab fa-amazon"></i>
+                        <h3>Honest Product Pick</h3>
+                    </div>
+                    <p class="footer-description">Your trusted source for honest Amazon product reviews and recommendations.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
+                        <!-- <a href="#"><i class="fab fa-pinterest"></i></a> -->
+                    </div>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="preview.html">Product Preview</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="products.html?category=electronics">Electronics</a></li>
+                        <li><a href="products.html?category=clothing">Clothing</a></li>
+                        <li><a href="products.html?category=computers">Computers</a></li>
+                        <li><a href="products.html?category=home">Home & Kitchen</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> fawzan0fficial20@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +92 3099590546</li>
+                        <li><i class="fas fa-map-marker-alt"></i> pakistan khyber pakhtunkhwa bajaur</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2023 Honest Product Pick. All rights reserved. | As an Amazon Associate we earn from qualifying
+                    purchases.</p>
+            </div>
+        </footer>
+
+
+      <!-- Cart Modal -->
+        <div class="cart-modal" id="cartModal">
+            <div class="cart-modal-content">
+                <div class="cart-modal-header">
+                    <h3>Your Shopping Cart</h3>
+                    <span class="close-cart" id="closeCart">&times;</span>
+                </div>
+                <div class="cart-modal-body" id="cartModalBody">
+                    <!-- Cart items loaded via JavaScript -->
+                </div>
+                <div class="cart-modal-footer">
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span class="total-amount" id="cartTotalAmount">$0.00</span>
+                    </div>
+                    <button class="checkout-btn" id="checkoutBtn">Proceed to Checkout</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- JavaScript Files -->
+        <script src="js/main.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/preview.js"></script>
+        <script src="js/products.js"></script>
+        <script src="js/contact.js"></script>
+    </body>
+
+</html>
